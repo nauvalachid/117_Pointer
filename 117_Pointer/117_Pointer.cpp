@@ -12,3 +12,5 @@ public:
 int main (){
 	mahsiswa mhs{ 1 }; //Object mhs
 	mhs.showNim(); //Member Access Operator
+
+	mahsiswa& refMhs = mhs; //Penunjuk Referensi refMhs
