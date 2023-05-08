@@ -10,7 +10,7 @@ public:
 };
 
 int main (){
-	mahsiswa mhs{ 1 }; //Object mhs
+	mahasiswa mhs{ 1 }; //Object mhs
 	mhs.showNim(); //Member Access Operator
 
-	mahsiswa& refMhs = mhs; //Penunjuk Referensi refMhs
+	mahasiswa& refMhs = mhs; //Penunjuk Referensi refMhs
