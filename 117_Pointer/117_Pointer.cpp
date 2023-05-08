@@ -8,3 +8,6 @@ public:
 		cout << "No Induk = " << nim << endl;
 	}
 };
+
+int main (){
+	mahsiswa mhs{ 1 }; //Object mhs
