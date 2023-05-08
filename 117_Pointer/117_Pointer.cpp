@@ -15,7 +15,10 @@ int main() {
 
 	mahasiswa& refMhs = mhs; //Penunjuk Referensi refMhs
 	refMhs.nim = 2; //Member Access Operator
-	mhs, showNim();
+	mhs.showNim();
 
 	mahasiswa* pMhs = &mhs; //Penunjuk Deferensi pMhs
 	pMhs->nim = 3; //Arrow Operator
+	mhs.showNim();
+	return 0;
+}
