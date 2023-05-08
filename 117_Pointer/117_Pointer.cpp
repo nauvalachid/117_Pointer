@@ -18,3 +18,4 @@ int main() {
 	mhs, showNim();
 
 	mahasiswa* pMhs = &mhs; //Penunjuk Deferensi pMhs
+	pMhs->nim = 3; //Arrow Operator
