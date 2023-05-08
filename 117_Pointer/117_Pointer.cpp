@@ -9,8 +9,9 @@ public:
 	}
 };
 
-int main (){
+int main() {
 	mahasiswa mhs{ 1 }; //Object mhs
 	mhs.showNim(); //Member Access Operator
 
 	mahasiswa& refMhs = mhs; //Penunjuk Referensi refMhs
+	refMhs.nim = 2; //Member Access Operator
